@@ -1,0 +1,554 @@
+Resolved 262 packages in 12.51s
+   Building scikit-network==0.33.5
+  × Failed to build `scikit-network==0.33.5`
+  ├─▶ The build backend returned an error
+  ╰─▶ Call to `setuptools.build_meta.build_wheel` failed (exit code: 1)
+
+      [stdout]
+      Compiling ./sknetwork\classification\vote.pyx because it changed.
+      [1/1] Cythonizing ./sknetwork\classification\vote.pyx
+      Compiling ./sknetwork\clustering\leiden_core.pyx because it changed.
+      [1/1] Cythonizing ./sknetwork\clustering\leiden_core.pyx
+      Compiling ./sknetwork\clustering\louvain_core.pyx because it changed.
+      [1/1] Cythonizing ./sknetwork\clustering\louvain_core.pyx
+      Compiling ./sknetwork\hierarchy\paris.pyx because it changed.
+      [1/1] Cythonizing ./sknetwork\hierarchy\paris.pyx
+      Compiling ./sknetwork\linalg\diteration.pyx because it changed.
+      [1/1] Cythonizing ./sknetwork\linalg\diteration.pyx
+      Compiling ./sknetwork\linalg\push.pyx because it changed.
+      [1/1] Cythonizing ./sknetwork\linalg\push.pyx
+      Compiling ./sknetwork\ranking\betweenness.pyx because it changed.
+      [1/1] Cythonizing ./sknetwork\ranking\betweenness.pyx
+      Compiling ./sknetwork\topology\cliques.pyx because it changed.
+      [1/1] Cythonizing ./sknetwork\topology\cliques.pyx
+      Compiling ./sknetwork\topology\core.pyx because it changed.
+      [1/1] Cythonizing ./sknetwork\topology\core.pyx
+      Compiling ./sknetwork\topology\minheap.pyx because it changed.
+      [1/1] Cythonizing ./sknetwork\topology\minheap.pyx
+      Compiling ./sknetwork\topology\triangles.pyx because it changed.
+      [1/1] Cythonizing ./sknetwork\topology\triangles.pyx
+      Compiling ./sknetwork\topology\weisfeiler_lehman_core.pyx because it
+      changed.
+      [1/1] Cythonizing ./sknetwork\topology\weisfeiler_lehman_core.pyx
+      running bdist_wheel
+      running build
+      running build_py
+      copying sknetwork\base.py -> build\lib.win-amd64-cpython-314\sknetwork
+      copying sknetwork\log.py -> build\lib.win-amd64-cpython-314\sknetwork
+      copying sknetwork\sknetwork.py ->
+      build\lib.win-amd64-cpython-314\sknetwork
+      copying sknetwork\test_base.py ->
+      build\lib.win-amd64-cpython-314\sknetwork
+      copying sknetwork\test_log.py ->
+      build\lib.win-amd64-cpython-314\sknetwork
+      copying sknetwork\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork
+      copying sknetwork\classification\base.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification
+      copying sknetwork\classification\base_rank.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification
+      copying sknetwork\classification\diffusion.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification
+      copying sknetwork\classification\knn.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification
+      copying sknetwork\classification\metrics.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification
+      copying sknetwork\classification\pagerank.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification
+      copying sknetwork\classification\propagation.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification
+      copying sknetwork\classification\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification
+      copying sknetwork\clustering\base.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering
+      copying sknetwork\clustering\kcenters.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering
+      copying sknetwork\clustering\leiden.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering
+      copying sknetwork\clustering\louvain.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering
+      copying sknetwork\clustering\metrics.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering
+      copying sknetwork\clustering\postprocess.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering
+      copying sknetwork\clustering\propagation_clustering.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering
+      copying sknetwork\clustering\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering
+      copying sknetwork\data\base.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data
+      copying sknetwork\data\load.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data
+      copying sknetwork\data\models.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data
+      copying sknetwork\data\parse.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data
+      copying sknetwork\data\test_graphs.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data
+      copying sknetwork\data\timeout.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data
+      copying sknetwork\data\toy_graphs.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data
+      copying sknetwork\data\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data
+      copying sknetwork\embedding\base.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding
+      copying sknetwork\embedding\force_atlas.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding
+      copying sknetwork\embedding\louvain_embedding.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding
+      copying sknetwork\embedding\random_projection.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding
+      copying sknetwork\embedding\spectral.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding
+      copying sknetwork\embedding\spring.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding
+      copying sknetwork\embedding\svd.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding
+      copying sknetwork\embedding\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding
+      copying sknetwork\gnn\activation.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn
+      copying sknetwork\gnn\base.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn
+      copying sknetwork\gnn\base_activation.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn
+      copying sknetwork\gnn\base_layer.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn
+      copying sknetwork\gnn\gnn_classifier.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn
+      copying sknetwork\gnn\layer.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn
+      copying sknetwork\gnn\loss.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn
+      copying sknetwork\gnn\neighbor_sampler.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn
+      copying sknetwork\gnn\optimizer.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn
+      copying sknetwork\gnn\utils.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn
+      copying sknetwork\gnn\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn
+      copying sknetwork\hierarchy\base.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\hierarchy
+      copying sknetwork\hierarchy\louvain_hierarchy.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\hierarchy
+      copying sknetwork\hierarchy\metrics.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\hierarchy
+      copying sknetwork\hierarchy\postprocess.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\hierarchy
+      copying sknetwork\hierarchy\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\hierarchy
+      copying sknetwork\linalg\basics.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\linalg\eig_solver.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\linalg\laplacian.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\linalg\normalizer.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\linalg\operators.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\linalg\polynome.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\linalg\ppr_solver.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\linalg\sparse_lowrank.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\linalg\svd_solver.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\linalg\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\linkpred\base.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linkpred
+      copying sknetwork\linkpred\nn.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linkpred
+      copying sknetwork\linkpred\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linkpred
+      copying sknetwork\path\dag.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\path
+      copying sknetwork\path\distances.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\path
+      copying sknetwork\path\search.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\path
+      copying sknetwork\path\shortest_path.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\path
+      copying sknetwork\path\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\path
+      copying sknetwork\ranking\base.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking
+      copying sknetwork\ranking\closeness.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking
+      copying sknetwork\ranking\hits.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking
+      copying sknetwork\ranking\katz.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking
+      copying sknetwork\ranking\pagerank.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking
+      copying sknetwork\ranking\postprocess.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking
+      copying sknetwork\ranking\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking
+      copying sknetwork\regression\base.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\regression
+      copying sknetwork\regression\diffusion.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\regression
+      copying sknetwork\regression\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\regression
+      copying sknetwork\topology\cycles.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\topology\structure.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\topology\weisfeiler_lehman.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\topology\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\utils\check.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils
+      copying sknetwork\utils\format.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils
+      copying sknetwork\utils\membership.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils
+      copying sknetwork\utils\neighbors.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils
+      copying sknetwork\utils\tfidf.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils
+      copying sknetwork\utils\values.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils
+      copying sknetwork\utils\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils
+      copying sknetwork\visualization\colors.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\visualization
+      copying sknetwork\visualization\dendrograms.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\visualization
+      copying sknetwork\visualization\graphs.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\visualization
+      copying sknetwork\visualization\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\visualization
+      copying sknetwork\classification\tests\test_API.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification\tests
+      copying sknetwork\classification\tests\test_diffusion.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification\tests
+      copying sknetwork\classification\tests\test_knn.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification\tests
+      copying sknetwork\classification\tests\test_metrics.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification\tests
+      copying sknetwork\classification\tests\test_pagerank.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification\tests
+      copying sknetwork\classification\tests\test_propagation.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification\tests
+      copying sknetwork\classification\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification\tests
+      copying sknetwork\clustering\tests\test_API.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering\tests
+      copying sknetwork\clustering\tests\test_kcenters.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering\tests
+      copying sknetwork\clustering\tests\test_leiden.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering\tests
+      copying sknetwork\clustering\tests\test_louvain.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering\tests
+      copying sknetwork\clustering\tests\test_metrics.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering\tests
+      copying sknetwork\clustering\tests\test_postprocess.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering\tests
+      copying sknetwork\clustering\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering\tests
+      copying sknetwork\data\tests\test_API.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data\tests
+      copying sknetwork\data\tests\test_base.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data\tests
+      copying sknetwork\data\tests\test_load.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data\tests
+      copying sknetwork\data\tests\test_models.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data\tests
+      copying sknetwork\data\tests\test_parse.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data\tests
+      copying sknetwork\data\tests\test_test_graphs.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data\tests
+      copying sknetwork\data\tests\test_toy_graphs.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data\tests
+      copying sknetwork\data\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\data\tests
+      copying sknetwork\embedding\tests\test_API.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding\tests
+      copying sknetwork\embedding\tests\test_force_atlas.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding\tests
+      copying sknetwork\embedding\tests\test_louvain_embedding.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding\tests
+      copying sknetwork\embedding\tests\test_random_projection.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding\tests
+      copying sknetwork\embedding\tests\test_spectral.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding\tests
+      copying sknetwork\embedding\tests\test_spring.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding\tests
+      copying sknetwork\embedding\tests\test_svd.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding\tests
+      copying sknetwork\embedding\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\embedding\tests
+      copying sknetwork\gnn\tests\test_activation.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn\tests
+      copying sknetwork\gnn\tests\test_base.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn\tests
+      copying sknetwork\gnn\tests\test_base_layer.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn\tests
+      copying sknetwork\gnn\tests\test_gnn_classifier.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn\tests
+      copying sknetwork\gnn\tests\test_layers.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn\tests
+      copying sknetwork\gnn\tests\test_loss.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn\tests
+      copying sknetwork\gnn\tests\test_neigh_sampler.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn\tests
+      copying sknetwork\gnn\tests\test_optimizer.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn\tests
+      copying sknetwork\gnn\tests\test_utils.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn\tests
+      copying sknetwork\gnn\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\gnn\tests
+      copying sknetwork\hierarchy\tests\test_algos.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\hierarchy\tests
+      copying sknetwork\hierarchy\tests\test_API.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\hierarchy\tests
+      copying sknetwork\hierarchy\tests\test_metrics.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\hierarchy\tests
+      copying sknetwork\hierarchy\tests\test_postprocess.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\hierarchy\tests
+      copying sknetwork\hierarchy\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\hierarchy\tests
+      copying sknetwork\linalg\tests\test_eig.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg\tests
+      copying sknetwork\linalg\tests\test_laplacian.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg\tests
+      copying sknetwork\linalg\tests\test_normalization.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg\tests
+      copying sknetwork\linalg\tests\test_operators.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg\tests
+      copying sknetwork\linalg\tests\test_polynome.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg\tests
+      copying sknetwork\linalg\tests\test_ppr.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg\tests
+      copying sknetwork\linalg\tests\test_sparse_lowrank.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg\tests
+      copying sknetwork\linalg\tests\test_svd.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg\tests
+      copying sknetwork\linalg\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg\tests
+      copying sknetwork\linkpred\tests\test_nn.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linkpred\tests
+      copying sknetwork\linkpred\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\linkpred\tests
+      copying sknetwork\path\tests\test_dag.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\path\tests
+      copying sknetwork\path\tests\test_distances.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\path\tests
+      copying sknetwork\path\tests\test_search.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\path\tests
+      copying sknetwork\path\tests\test_shortest_path.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\path\tests
+      copying sknetwork\path\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\path\tests
+      copying sknetwork\ranking\tests\test_API.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking\tests
+      copying sknetwork\ranking\tests\test_betweenness.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking\tests
+      copying sknetwork\ranking\tests\test_closeness.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking\tests
+      copying sknetwork\ranking\tests\test_hits.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking\tests
+      copying sknetwork\ranking\tests\test_pagerank.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking\tests
+      copying sknetwork\ranking\tests\test_postprocess.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking\tests
+      copying sknetwork\ranking\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking\tests
+      copying sknetwork\regression\tests\test_API.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\regression\tests
+      copying sknetwork\regression\tests\test_diffusion.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\regression\tests
+      copying sknetwork\regression\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\regression\tests
+      copying sknetwork\topology\tests\test_cliques.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology\tests
+      copying sknetwork\topology\tests\test_core.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology\tests
+      copying sknetwork\topology\tests\test_cycles.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology\tests
+      copying sknetwork\topology\tests\test_structure.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology\tests
+      copying sknetwork\topology\tests\test_triangles.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology\tests
+      copying sknetwork\topology\tests\test_wl.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology\tests
+      copying sknetwork\topology\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology\tests
+      copying sknetwork\utils\tests\test_check.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils\tests
+      copying sknetwork\utils\tests\test_format.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils\tests
+      copying sknetwork\utils\tests\test_membership.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils\tests
+      copying sknetwork\utils\tests\test_neighbors.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils\tests
+      copying sknetwork\utils\tests\test_tfidf.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils\tests
+      copying sknetwork\utils\tests\test_values.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils\tests
+      copying sknetwork\utils\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\utils\tests
+      copying sknetwork\visualization\tests\test_dendrograms.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\visualization\tests
+      copying sknetwork\visualization\tests\test_graphs.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\visualization\tests
+      copying sknetwork\visualization\tests\__init__.py ->
+      build\lib.win-amd64-cpython-314\sknetwork\visualization\tests
+      running egg_info
+      writing scikit_network.egg-info\PKG-INFO
+      writing dependency_links to scikit_network.egg-info\dependency_links.txt
+      writing requirements to scikit_network.egg-info\requires.txt
+      writing top-level names to scikit_network.egg-info\top_level.txt
+      reading manifest file 'scikit_network.egg-info\SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      adding license file 'LICENSE'
+      adding license file 'AUTHORS.rst'
+      writing manifest file 'scikit_network.egg-info\SOURCES.txt'
+      copying sknetwork\classification\vote.cpp ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification
+      copying sknetwork\classification\vote.pyx ->
+      build\lib.win-amd64-cpython-314\sknetwork\classification
+      copying sknetwork\clustering\leiden_core.cpp ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering
+      copying sknetwork\clustering\leiden_core.pyx ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering
+      copying sknetwork\clustering\louvain_core.cpp ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering
+      copying sknetwork\clustering\louvain_core.pyx ->
+      build\lib.win-amd64-cpython-314\sknetwork\clustering
+      copying sknetwork\hierarchy\paris.cpp ->
+      build\lib.win-amd64-cpython-314\sknetwork\hierarchy
+      copying sknetwork\hierarchy\paris.pyx ->
+      build\lib.win-amd64-cpython-314\sknetwork\hierarchy
+      copying sknetwork\linalg\diteration.cpp ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\linalg\diteration.pyx ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\linalg\push.cpp ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\linalg\push.pyx ->
+      build\lib.win-amd64-cpython-314\sknetwork\linalg
+      copying sknetwork\ranking\betweenness.cpp ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking
+      copying sknetwork\ranking\betweenness.pyx ->
+      build\lib.win-amd64-cpython-314\sknetwork\ranking
+      copying sknetwork\topology\cliques.cpp ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\topology\cliques.pyx ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\topology\core.cpp ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\topology\core.pyx ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\topology\minheap.cpp ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\topology\minheap.pxd ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\topology\minheap.pyx ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\topology\triangles.cpp ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\topology\triangles.pyx ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\topology\weisfeiler_lehman_core.cpp ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      copying sknetwork\topology\weisfeiler_lehman_core.pyx ->
+      build\lib.win-amd64-cpython-314\sknetwork\topology
+      running build_ext
+      building 'sknetwork.classification.vote' extension
+
+      [stderr]
+      E:\uv-cache\builds-v0\.tmpwhtHIm\Lib\site-packages\setuptools\_distutils\dist.py:288:
+      UserWarning: Unknown distribution option: 'test_suite'
+        warnings.warn(msg)
+      E:\uv-cache\builds-v0\.tmpwhtHIm\Lib\site-packages\setuptools\_distutils\dist.py:288:
+      UserWarning: Unknown distribution option: 'tests_require'
+        warnings.warn(msg)
+      E:\uv-cache\builds-v0\.tmpwhtHIm\Lib\site-packages\setuptools\config\_apply_pyprojecttoml.py:82:
+      SetuptoolsDeprecationWarning: `project.license` as a TOML table is
+      deprecated
+      !!
+
+      
+      ********************************************************************************
+              Please use a simple string containing a SPDX expression for
+      `project.license`. You can also use `project.license-files`. (Both
+      options available on setuptools>=77.0.0).
+
+              By 2027-Feb-18, you need to update your project and remove
+      deprecated calls
+              or your builds will no longer be supported.
+
+              See
+      https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license
+      for details.
+      
+      ********************************************************************************
+
+      !!
+        corresp(dist, value, root_dir)
+      ModuleNotFoundError while trying to load entry-point ptr: No module
+      named 'pkg_resources'
+      ModuleNotFoundError while trying to load entry-point pytest: No module
+      named 'pkg_resources'
+      E:\uv-cache\builds-v0\.tmpwhtHIm\Lib\site-packages\setuptools\config\_apply_pyprojecttoml.py:61:
+      SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+
+      
+      ********************************************************************************
+              Please consider removing the following classifiers in favor of a
+      SPDX license expression:
+
+              License :: OSI Approved :: BSD License
+
+              See
+      https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license
+      for details.
+      
+      ********************************************************************************
+
+      !!
+        dist._finalize_license_expression()
+      E:\uv-cache\builds-v0\.tmpwhtHIm\Lib\site-packages\setuptools\dist.py:765:
+      SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+
+      
+      ********************************************************************************
+              Please consider removing the following classifiers in favor of a
+      SPDX license expression:
+
+              License :: OSI Approved :: BSD License
+
+              See
+      https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license
+      for details.
+      
+      ********************************************************************************
+
+      !!
+        self._finalize_license_expression()
+      warning: no files found matching '*' under directory 'tests'
+      warning: no previously-included files matching '__pycache__' found under
+      directory '*'
+      warning: no previously-included files matching '*.py[co]' found under
+      directory '*'
+      warning: no files found matching '*.jpg' under directory 'docs'
+      warning: no files found matching '*.png' under directory 'docs'
+      warning: no files found matching '*.gif' under directory 'docs'
+      error: Microsoft Visual C++ 14.0 or greater is
+      required. Get it with "Microsoft C++ Build Tools":
+      https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+      hint: This usually indicates a problem with the package or the build
+      environment.
+  help: `scikit-network` (v0.33.5) was included because `ragas` (v0.4.3)
+        depends on `scikit-network`
